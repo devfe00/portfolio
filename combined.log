@@ -1,0 +1,53 @@
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T14:13:01.926Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T14:13:01.930Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T14:26:12.921Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T14:26:12.926Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T14:33:17.028Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T14:33:17.032Z"}
+{"level":"warn","message":"Tentativa de login com senha incorreta: admin","timestamp":"2024-12-15T14:34:05.236Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T14:41:44.266Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T14:41:44.275Z"}
+{"level":"warn","message":"Tentativa de login com senha incorreta: admin","timestamp":"2024-12-15T14:42:46.060Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T14:46:36.412Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T14:46:36.416Z"}
+{"error":{},"level":"error","message":"Erro no login","timestamp":"2024-12-15T14:48:22.377Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T14:51:21.288Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T14:51:21.293Z"}
+{"error":{},"level":"error","message":"Erro no login","timestamp":"2024-12-15T14:51:29.381Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T14:52:56.683Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T14:52:56.687Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Erro no login","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (/Volumes/Programação/web development 1.1/node_modules/jsonwebtoken/sign.js:111:20)\n    at /Volumes/Programação/web development 1.1/server.js:134:25","timestamp":"2024-12-15T14:52:58.836Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T14:55:37.431Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T14:55:37.435Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Erro no login","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (/Volumes/Programação/web development 1.1/node_modules/jsonwebtoken/sign.js:111:20)\n    at /Volumes/Programação/web development 1.1/server.js:136:25","timestamp":"2024-12-15T14:55:44.444Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T14:58:39.612Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T14:58:39.615Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Erro no login","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (/Volumes/Programação/web development 1.1/node_modules/jsonwebtoken/sign.js:111:20)\n    at /Volumes/Programação/web development 1.1/server.js:135:25","timestamp":"2024-12-15T14:58:49.534Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Erro no login","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (/Volumes/Programação/web development 1.1/node_modules/jsonwebtoken/sign.js:111:20)\n    at /Volumes/Programação/web development 1.1/server.js:135:25","timestamp":"2024-12-15T14:58:49.839Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T14:59:58.432Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T14:59:58.436Z"}
+{"error":"secretOrPrivateKey must have a value","level":"error","message":"Erro no login","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (/Volumes/Programação/web development 1.1/node_modules/jsonwebtoken/sign.js:111:20)\n    at /Volumes/Programação/web development 1.1/server.js:136:25","timestamp":"2024-12-15T15:01:05.091Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T15:02:30.481Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T15:02:30.484Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T15:05:00.140Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T15:05:00.144Z"}
+{"level":"info","message":"Usuário logado: admin","timestamp":"2024-12-15T15:06:00.998Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T15:07:59.348Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T15:07:59.352Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T15:09:14.256Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T15:09:14.259Z"}
+{"level":"info","message":"Usuário logado: admin","timestamp":"2024-12-15T15:09:41.669Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T15:16:21.839Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T15:16:21.844Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T15:16:36.385Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T15:16:36.389Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T15:17:06.030Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T15:17:06.033Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T15:17:52.909Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T15:17:52.912Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T15:19:00.663Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T15:19:00.666Z"}
+{"level":"info","message":"Usuário logado: admin","timestamp":"2024-12-15T15:19:56.606Z"}
+{"level":"info","message":"Usuário logado: admin","timestamp":"2024-12-15T15:20:19.488Z"}
+{"level":"info","message":"Servidor rodando na porta 5000","timestamp":"2024-12-15T22:29:36.490Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2024-12-15T22:29:36.494Z"}

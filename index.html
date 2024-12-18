@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Cabeçalho/Header -->
+    <header>
+        <div class="logo"><span>F</span>ellipe.</div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1;">Eu</a></li>
+            <li><a href="#about" style="--i:2;">Sobre</a></li>
+            <li><a href="#services" style="--i:3;">Serviço</a></li>
+            <li><a href="#skills" style="--i:4;">Habilidades</a></li>
+            <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+            <li><a href="#contact" style="--i:6;">Contato</a></li>
+        </ul>
+        
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+
+    <!-- Home Section/Seção inicial -->
+    <section id="home" class="home">
+
+            <!-- Adicionando o container da onda logo após a abertura da seção -->
+    <div class="wave-container">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+
+    
+        <div class="home-content scroll-scale">
+            <h1>Olá, Eu sou Fellipe Silva</h1>
+            <div class="change-text">
+                <h3>E sou</h3>
+                <h3>
+                    <span class="word">Desenvolvedor&nbsp;Full&nbsp;Stack</span>
+                    <span class="word">Dev&nbsp;Freelancer</span>
+                    <span class="word">E-commerce&nbsp;Web</span>
+                </h3>
+            </div>
+            <div class="content-description">
+                <p>Desenvolvedor Full Stack com experiência de 3 anos e profissional qualificado em JS, React.js, Node.js e Swift.</p>
+                
+                <div class="info-box">
+                    <div class="email-info">
+                        <h5>Email:</h5>
+                        <span>lipe@hotmail.com</span>
+                    </div>
+                    <div class="developer-info">
+                        <h5>Developer:</h5>
+                        <span>developer.projects/fellipe</span>
+                    </div>
+                </div>
+
+                <div class="btn-box">
+                    <a href="#" class="btn">Download CV </a>
+                    <a href="#" class="btn">Conheça Já!</a>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp-square'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <div class="img-box">
+                <img src="img/7.jpg" alt="Fellipe Silva profile">
+            </div>
+
+
+            <div class="liquid-shape">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="600" height="600">
+                    <path fill="#12f7ff">
+                        <animate 
+                            attributeName="d" 
+                            dur="20000ms" 
+                            repeatCount="indefinite"
+                            values="
+                                M243,208Q208,266,155,299Q102,332,97,266Q92,200,152,167Q212,134,245.5,167Q279,200,243,208Z;
+            
+                                M239,209Q206,268,148,284Q90,300,89,241Q88,182,143,147Q198,112,237,147Q276,182,239,209Z;
+            
+                                M251.5,215Q216,280,155.5,282Q95,284,89,221.5Q83,159,150,142Q217,125,252,162.5Q287,200,251.5,215Z;
+            
+                                M240,211Q207,272,144,287Q81,302,86.5,238.5Q92,175,155.5,158Q219,141,246,170.5Q273,200,240,211Z;
+            
+                                M254,214Q213,278,150,290Q87,302,82,234.5Q77,165,155,160Q233,155,277,177.5Q321,200,254,214Z;
+            
+                                M276,219Q222,288,158.5,290Q95,292,86,228.5Q77,165,155,160Q233,155,277,177.5Q321,200,276,219Z;
+            
+                                M231.5,207Q206,264,145,272Q84,280,83.5,220Q83,160,145.5,142Q208,124,232,162Q256,200,231.5,207Z;
+            
+                                M243,208Q208,266,155,299Q102,332,97,266Q92,200,152,167Q212,134,245.5,167Q279,200,243,208Z"
+                        />
+                    </path>
+                </svg>
+            </div>
+            
+            <!-- Segunda animação líquida (desfocada) -->
+            <div class="liquid-shape">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="600" height="600">
+                    <path fill="#12f7ff">
+                        <animate 
+                            attributeName="d" 
+                            dur="20000ms" 
+                            repeatCount="indefinite"
+                            values="
+                                M403,347Q405,444,309,428Q213,412,131,379.5Q49,347,63.5,257Q78,167,147,134.5Q216,102,294,99.5Q372,97,386.5,173.5Q401,250,403,347Z;
+            
+                                M398.5,296Q359,342,323.5,403Q288,464,226,431Q164,398,115,357.5Q66,317,70,251.5Q74,186,114,135Q154,84,216.5,84Q279,84,326.5,115Q374,146,406,198Q438,250,398.5,296Z;
+            
+                                M405.5,292.5 Q351,335,319,396.5Q287,458,234.5,413Q182,368,103,350Q24,332,49.5,259Q75,186,105,118Q135,50,212.5,36.5Q290,23,359,61.5Q428,100,444,175Q460,250,405.5,292.5Z;
+            
+                                M413,310Q392,370,339,412.5Q286,455,234.5,411Q183,367,139,336.5Q95,306,83,245.5Q71,185,105.5,122.5Q140,60,209.5,73.5Q279,87,337.5,107.5Q396,128,415,189Q434,250,413,310Z;
+            
+                                M423.5,319Q415,388,354,441Q293,494,214.5,470.5Q136,447,127,372.5Q118,298,68,232Q18,166,91,133.5Q164,101,228,57Q292,13,330.5,81.5Q369,150,400.5,200Q432,250,423.5,319Z;
+            
+                                M460,328Q435,406,353.5,390.5Q272,375,211,399.5Q150,424,131,362Q112,300,77,237Q42,174,114,156.5Q186,139,234,104.5Q282,70,351,89Q420,108,452.5,179Q485,250,460,328Z;
+            
+                                M386,307.5Q387,365,339.5,428Q292,491,209.5,456Q127,421,106.5,352.5Q86,284,83,216.5Q80,149,135.5,119.5Q191,90,261.5,64.5Q332,39,368.5,98.5Q405,158,407.5,216Q410,274,386,307.5Z;
+            
+                                M403,347Q405,444,309,428Q213,412,131,379.5Q49,347,63.5,257Q78,167,147,134.5Q216,102,294,99.5Q372,97,386.5,173.5Q401,250,403,347Z"
+                        />
+                    </path>
+                </svg>
+                 </div>
+        </div>
+    </section>
+
+      <!-- Home Section/Seção inicial -->
+
+      <section id="about" class="about"> 
+        <div class="img-about">
+            <img src="img/7.jpg" alt="Minha foto">
+        </div>
+    
+        <div class="about-content scroll-scale">
+            <span>Vou me Apresentar...</span>
+            <h2>Sobre Mim</h2>
+            <h3>Um Jovem Revolucionário</h3>
+            <p>Desenvolvedor web full stack formado, especializado em programação para e-commerces e soluções completas, unindo front-end e back-end para criar experiências digitais eficazes.</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Leia Mais!</a>
+            </div>
+        </div>
+    </section>
+
+    <!--services section-------------------------------------------------------------------------------------------------------->
+    <section id="services" class="services">
+        <div class="main-text scroll-scale">
+                <span>O que eu faria para você</span>
+                <h2>Nossos Serviços</h2>
+            </div>
+            
+            <div class="section-services scroll-bottom">
+                <div class="service-box">
+                    <i class='bx bxs-layer service-icon'></i>
+                    <h3>App's</h3>
+                    <p>Desenvolvedor web full stack, especializado em e-commerces e soluções digitais completas, integrando front-end e back-end para criar plataformas eficientes e de alto impacto.</p>
+                    <div class="btn-box service-btn">
+                        <a href="#" class="btn">Leia Mais!</a>
+                    </div>
+                </div>
+
+                
+                <div class="service-box">
+                    <i class='bx bx-code-alt service-icon'></i>
+                    <h3>API's</h3>
+                    <p>Desenvolvedor web full stack, especializado em e-commerces e soluções digitais completas, integrando front-end e back-end para criar plataformas eficientes e de alto impacto.</p>
+                    <div class="btn-box service-btn">
+                        <a href="#" class="btn">Leia Mais!</a>
+                    </div>
+                </div>
+
+
+                <div class="service-box">
+                    <i class='bx bx-desktop service-icon'></i>
+                    <h3>Web - Full Stack</h3>
+                    <p>Desenvolvedor web full stack, especializado em e-commerces e soluções digitais completas, integrando front-end e back-end para criar plataformas eficientes e de alto impacto.</p>
+                    <div class="btn-box service-btn">
+                        <a href="#" class="btn">Leia Mais!</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--skill section-------------------------------------------------------------------------------------------------------->
+
+    <section id="skills" class="skills">
+        <div class="main-text scroll-scale">
+            <span>Técnico e Profissional</span>
+            <h2>Minhas Habilidades</h2>
+        </div>
+    
+        <div class="skills-main">
+            <div class="skills-left scroll-scale">
+                <h3>Habilidade Técnica</h3>
+                
+                <!-- Habilidade 1 -->
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>85%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+    
+                <!-- Habilidade 2 -->
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="figma"></span>
+                    </div>
+                </div>
+    
+                <!-- Habilidade 3 -->
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>Python</p>
+                        <p>89%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+    
+                <!-- Habilidade 4 -->
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skills-right scroll-scale">
+                <h3>Habilidades Profissionais</h3>
+            
+                        <!-- Box 1 -->
+                    <div class="box">
+                        <div class="circle" data-dots="20" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <!-- Box 2 -->
+                    <div class="box">
+                        <div class="circle" data-dots="20" data-percent="80"></div>
+                        <div class="text">
+                            <big>85%</big>
+                            <small>Criatividade</small>
+                        </div>
+                    </div>
+
+                    <!-- Box 3 -->
+                    <div class="box">
+                        <div class="circle" data-dots="20" data-percent="55"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Gestão de Projetos</small>
+                        </div>
+                    </div>
+
+                    <!-- Box 4 -->
+                    <div class="box">
+                        <div class="circle" data-dots="20" data-percent="70"></div>
+                        <div class="text">
+                            <big>75%</big>
+                            <small>Comunicação</small>
+                        </div>
+                    </div>
+
+            
+            </div>
+    </div>
+</div>
+
+</section>
+    
+<!--skill section-------------------------------------------------------------------------------------------------------->
+<section id="portfolio" class="portfolio">
+    <div class="main-text scroll-scale">
+        <span>O que será feito?</span>
+        <h2>Projeto mais Recente</h2>
+    </div>
+
+    <div class="container">
+    <div class="filter-buttons scroll-scale">
+        <button class="button" data-filter="all">Todos</button>
+        <button class="button" data-filter=".produtos">Produtos</button>
+        <button class="button" data-filter=".interação">Interação</button>
+        <button class="button" data-filter=".web">Web</button>
+    </div>
+</div> <!-- Fechar a div container -->
+
+    </div>
+
+    <div class="portfolio-gallery scroll-bottom">
+        <div class="port-box mix produtos">
+            <div class="port-image">
+                <img src="img/6.jpg" alt="">
+            </div>
+            <div class="port-content">
+                <h3>Developer Web</h3>
+                <p>Desenvolvedor web full stack, especializado em e-commerces e soluções digitais completas, integrando front-end e back-end para criar plataformas eficientes e de alto impacto.</p>
+            <a href="#"><i class='bx bx-unlink'></i></a>
+            </div>
+          </div>
+
+          <div class="port-box mix interação">
+            <div class="port-image">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="port-content">
+                <h3>Developer Web</h3>
+                <p>Desenvolvedor web full stack, especializado em e-commerces e soluções digitais completas, integrando front-end e back-end para criar plataformas eficientes e de alto impacto.</p>
+            <a href="#"><i class='bx bx-unlink'></i></a>
+            </div>
+          </div>
+
+          <div class="port-box mix web">
+            <div class="port-image">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="port-content">
+                <h3>Developer Web</h3>
+                <p>Desenvolvedor web full stack, especializado em e-commerces e soluções digitais completas, integrando front-end e back-end para criar plataformas eficientes e de alto impacto.</p>
+            <a href="#"><i class='bx bx-unlink'></i></a>
+            </div>
+          </div>
+
+          <div class="port-box mix Interação">
+            <div class="port-image">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="port-content">
+                <h3>Developer Web</h3>
+                <p>Desenvolvedor web full stack, especializado em e-commerces e soluções digitais completas, integrando front-end e back-end para criar plataformas eficientes e de alto impacto.</p>
+            <a href="#"><i class='bx bx-unlink'></i></a>
+            </div>
+          </div>
+
+          <div class="port-box mix web">
+            <div class="port-image">
+                <img src="img/6.jpg" alt="">
+            </div>
+            <div class="port-content">
+                <h3>Developer Web</h3>
+                <p>Desenvolvedor web full stack, especializado em e-commerces e soluções digitais completas, integrando front-end e back-end para criar plataformas eficientes e de alto impacto.</p>
+            <a href="#"><i class='bx bx-unlink'></i></a>
+            </div>
+          </div>
+
+          <div class="port-box mix web">
+            <div class="port-image">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="port-content">
+                <h3>Developer Web</h3>
+                <p>Desenvolvedor web full stack, especializado em e-commerces e soluções digitais completas, integrando front-end e back-end para criar plataformas eficientes e de alto impacto.</p>
+            <a href="#"><i class='bx bx-unlink'></i></a>
+            </div>
+          </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!--contato section-------------------------------------------------------------------------------------------------------->
+
+<section id="contact" class="constant">
+    <div class="main-text scroll-scale">
+        <span>Há dúvidas? Nos chame!</span>
+        <h2>Contato</h2>
+    </div>
+
+    <form id="contact-form" class="scroll-bottom">
+        <input type="text" id="nome" placeholder="Seu Nome" required>
+        <input type="email" id="email" placeholder="Seu E-mail" required>
+        <input type="text" id="endereco" placeholder="Seu Endereço" required>
+        <input type="tel" id="numero" placeholder="Seu Número" required>
+        <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+        <div class="btn-box formBtn"></div>
+        <button type="submit" class="btn">Envie sua Mensagem</button>
+    </form>
+</section>
+
+
+<!--footer website -------------------------------------------------------------------------------------------------------->
+<footer>
+    <p class="scroll-scale">Copyright &copy; 2024 by Fellipe || Todos Direitos Reservados</p>
+    <a href="index.html"><i class='bx bxs-arrow-from-bottom'></i></a>
+</footer>
+
+  
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
